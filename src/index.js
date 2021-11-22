@@ -1,7 +1,7 @@
-import Template from './templates/Template.js';
-console.log('hola');
-
+import Template from 'Templates/Template.js';
+import 'Styles/main.css';
+import 'Styles/vars.scss';
 (async function App() {
-  const main = null || document.getElementById('main');
-  main.innerHTML = await Template();
+	const main = null || document.getElementById('main');
+	main.innerHTML = await Template();
 })();
